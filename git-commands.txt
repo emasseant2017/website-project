@@ -1,0 +1,208 @@
+    1  $ mkdir website-project
+    2  $ cd website-project
+    3  $ git init
+    4  $ mkdir website-project
+    5  $ cd website-project
+    6  $ git init
+    7  cd /d %userprofile%\Desktop
+    8  dir
+    9  cd /d "%USERPROFILE%\OneDrive\Desktop
+   10  cd " Perscholas Python "
+   11  git add .
+   12  git status
+   13  git rev-parse --show-toplevel
+   14  clr
+   15  git status
+   16  git add .
+   17  git rev-parse --show-toplevel
+   18  pwd
+   19  pwd
+   20  ls
+   21  cd
+   22  mkdir
+   23  mkdir --help
+   24  rm
+   25  rm [temp]
+   26  git --version
+   27  git config --global user.name "emasseant2017"
+   28  git config --global user.email "emasseant2017@fau.edu"
+   29  git status
+   30  cd "/c/Users/marce/OneDrive/Desktop/Perscholas Python"
+   31  pwd
+   32  git rev-parse --show-toplevel
+   33  rm -rf ~/.git
+   34  git status
+   35  git init
+   36  git status
+   37  echo "__pycache__/" > .gitignore
+   38  git add .
+   39  git status
+   40  git commit -m "Initial commit"
+   41  git add index.html
+   42  <html>
+   43    <head>
+   44      <title>My Project</title>
+   45    </head>
+   46    <body>
+   47      <h1>Hello, world!</h1>
+   48    </body>
+   49  </html>
+   50  git add index.html
+   51  git add index.html
+   52  git add .
+   53  git status
+   54  git status
+   55  rm html.txt
+   56  git status
+   57  git commit -m " Add index HTML page"
+   58  rm html.txt
+   59  git rm --cached html.txt
+   60  git commit -m "Remove accidental html.txt"
+   61  git status
+   62  git add .
+   63  git commit -m "Added basic structure to index.html"
+   64  git log
+   65  git reset index.html
+   66  git checkout <commit-hash>
+   67  get status
+   68  git status
+   69  git stash
+   70  git stash
+   71  git remote add origin https://github.com/your-username/my-first-repo.git
+   72  git remote -v
+   73  git add .
+   74  git commit -m "Initial commit"
+   75  git push -u origin main
+   76  git remote 
+   77  git remote set-url origin https://github.com/emasseant2017/my-first-repo.git
+   78  git branch
+   79  git branch -M main
+   80  git push -u origin main
+   81  git
+   82  git remote add origin https://github.com/emasseant2017/my-first-repo.git
+   83  git remove -v
+   84  git remote -v
+   85  git add .
+   86  git commit -m "Initial commit"
+   87  git push -u origin main
+   88  git pull --rebase origin main
+   89  git rebase --continue
+   90  git status
+   91  git push -u origin main
+   92  git pull origin main
+   93  git checkout -b feature/new-feature
+   94  git checkout main
+   95  git branch
+   96  git checkout -b feature/homepage-design
+   97  git branch
+   98  git checkout main
+   99  git merge feature /homepage-design
+  100  git merge feature/homepage-design
+  101  mkdir website-project
+  102  cd website-project
+  103  git init
+  104  git add index.html
+  105  <html>
+  106    <head>
+  107      <title>Website</title>
+  108    </head>
+  109    <body>
+  110      <h1>Welcome to Our Website</h1>
+  111    </body>
+  112  </html>
+  113  mkdir website-project
+  114  cd website-project
+  115  git init
+  116  git add index.html
+  117  git add index.html
+  118  git add index.html
+  119  ~/website-project/website-project
+  120  touch index.html
+  121  ls
+  122  git add index.html
+  123  git commit -m "Initial commit with basic HTML structure"
+  124  git checkout -b feature/navigation-bar
+  125  git add index.html
+  126  git commit -m "Added navigation bar"
+  127  git checkout -b feature/footer
+  128  git add index.html
+  129  git commit -m "Added footer section"
+  130  git checkout main
+  131  git merge feature/navigation-bar
+  132  git merge feature/footer
+  133  git add index.html
+  134  git commit -m "Resolved merge conflict and combined navigation bar and footer"
+  135  git branch 
+  136  git checkout main
+  137  git checkout master
+  138  git merge feature /navigation bar
+  139  git merge feature/navigation bar
+  140  git merge feature/navigation-bar
+  141  git merge feature/footer
+  142  git merge feature/footer
+  143  git status 
+  144  git checkout -b feature/hero-section
+  145  git branch
+  146  git branch
+  147  git add index.html
+  148  git commit -m " Add hero-section " 
+  149  git status
+  150  git checkout -b feature/contact-form
+  151  git add index.html
+  152  git commit -m " Add contact-form"
+  153  git status
+  154  git checkout -b feature/Testimonials Section
+  155  git checkout -b feature/Testimonials Section
+  156  git checkout -b feature/Testimonials 
+  157  git status
+  158  git add index.html
+  159  git commit -m "Add TestimonialsSection"
+  160  git checkout master
+  161  git merge feature/Testimonials
+  162  git status
+  163  it push origin main
+  164  git push origin main
+  165  git branch -M main
+  166  git branch 
+  167  git push -u origin main
+  168  git push -u origin main
+  169  git remove -v
+  170  git remote -v
+  171  git remote add origin https://github.com/emasseant2017/website-project.git
+  172  git remote -v
+  173  git push -u origin main
+  174  git status 
+  175  git log --oneline --all --decorate
+  176  git branch 
+  177  git status 
+  178  git log --oneline --decorate --all --graph
+  179  git show --stat --oneline HEAD
+  180  git push origin main
+  181  git diff -- index.html
+  182  git show HEAD : index.html
+  183  git show HEAD:index.html
+  184  git show HEAD;index.html
+  185  git show HEAD:index.html
+  186  git status
+  187  ls -l index.html
+  188  cat index.html
+  189  find ~/website-project -type f -name "index.html" -print
+  190  notepad index.html
+  191  notepad index.html
+  192  notepad index.html
+  193  notepad index.html
+  194  ls -l index.html
+  195  git status 
+  196  git add index.html
+  197  git commit -m " Add complete website content "
+  198  git push origin main
+  199  cat index.html
+  200  git status
+  201  git branch 
+  202  git push -u origin feature/navigation-bar
+  203   git push -u origin feature/hero-section
+  204   git push -u origin feature/footer
+  205   git push -u origin feature/contact-form
+  206   git push -u origin feature/Testimonials
+  207  history > git-commands.txt
+
